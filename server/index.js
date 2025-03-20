@@ -22,7 +22,7 @@ app.use("/users", userRoutes)
 /* MONGOOSE SETUP */
 const PORT = 3001;
 mongoose
-  .connect("mongodb://127.0.0.1:27017/realestate", {
+  .connect("mongodb+srv://vadgamaharsh2023katargam:<db_password>@cluster0.gkxi7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
     dbName: "realestate",
     useNewUrlParser: true,
     useUnifiedTopology: true,
